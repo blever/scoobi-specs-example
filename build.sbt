@@ -12,7 +12,7 @@ scalacOptions ++= Seq(
 
 libraryDependencies ++= Seq(
   "com.nicta" %% "scoobi" % "0.7.0-cdh4-SNAPSHOT",
-  "org.specs2" %% "specs2" % "1.12+" % "test"
+  "org.specs2" %% "specs2" % "1.15-SNAPSHOT" % "test"
 )
 
 resolvers ++= Seq(
