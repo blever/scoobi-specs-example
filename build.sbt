@@ -2,12 +2,11 @@ name := "scoobi-specs-example"
 
 version := "0.1.0"
 
-scalaVersion := "2.10.1"
+scalaVersion := "2.9.2"
 
 scalacOptions ++= Seq(
   "-deprecation",
-  "-feature",
-  "-language:higherKinds"
+  "-Ydependent-method-types"
 )
 
 libraryDependencies ++= Seq(
